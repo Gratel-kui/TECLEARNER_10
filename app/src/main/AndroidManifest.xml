@@ -18,7 +18,21 @@
             </intent-filter>
         </activity>
         <activity android:name=".konwledge_to_choose" />
+        <activity
 
+            android:name=".biologyActivity"
+
+            android:label="biologyActivity">
+
+            <intent-filter>
+
+                <action android:name="com.litreily.biologyActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+            </intent-filter>
+
+        </activity>
     </application>
 
 </manifest>
