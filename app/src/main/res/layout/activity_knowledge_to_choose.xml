@@ -10,20 +10,65 @@
         android:layout_height="wrap_content">
 
 
-        <ImageView
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="180dp"
             android:layout_marginLeft="200dp"
             android:layout_marginTop="50dp"
-            android:src="@drawable/astronomy1"
-            android:layout_width="170dp"
-            android:layout_height="200dp" />
+            android:background="@drawable/astronomy1"
+             />
+
         <Button
 
-            android:background="@drawable/biology"
             android:id="@+id/btn_biology"
-            android:text="Biology"
-            android:layout_marginTop="50dp"
             android:layout_width="170dp"
-            android:layout_height="180dp" />
+            android:layout_height="180dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/biology"
+            android:text="Biology" />
+
+        <Button
+
+        android:id="@+id/btn_chemistry"
+        android:layout_width="170dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/chemistry"
+        android:text="Chemistry" />
+
+        <Button
+
+            android:id="@+id/btn_universe"
+            android:layout_width="170dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="200dp"
+            android:background="@drawable/universe"
+            android:text="Universe" />
+
+        <Button
+
+            android:id="@+id/btn_brain"
+            android:layout_width="170dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="450dp"
+            android:background="@drawable/ai"
+            android:text="Chemistry" />
+
+        <Button
+
+            android:id="@+id/btn_4"
+            android:layout_width="170dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="200dp"
+            android:background="@drawable/architecture"
+            android:text="Chemistry" />
+
+
+
+
+
 
     </RelativeLayout>
 

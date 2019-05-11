@@ -30,6 +30,7 @@ public class konwledge_to_choose extends AppCompatActivity implements View.OnCli
                 intent1.setClass(getApplicationContext(), biologyActivity.class);
                 this.startActivity(intent1);
                 break;
+
         }
     }
 }
