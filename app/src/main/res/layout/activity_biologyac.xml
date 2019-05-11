@@ -5,11 +5,83 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     >
-    <TextView
-        android:textSize="50dp"
-        android:text="测试"
+    <RelativeLayout
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/pic_mouth"
+            android:src="@drawable/mouth"
+            android:layout_width="180dp"
+            android:layout_height="200dp" />
+        <Button
+            android:id="@+id/text_mouth"
+            android:background="@android:color/transparent"
+            android:textSize="40sp"
+            android:text="口腔"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/pic_mouth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/pic_digest"
+            android:src="@drawable/digest"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/pic_mouth"
+            android:layout_width="180dp"
+            android:layout_height="200dp" />
+
+        <Button
+            android:id="@+id/text_digest"
+            android:textSize="40dp"
+            android:background="@android:color/transparent"
+            android:text="消化系统"
+            android:layout_marginLeft="70dp"
+            android:layout_toRightOf="@id/text_mouth"
+            android:layout_below="@id/pic_digest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:id="@+id/pic_bacteria"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/text_mouth"
+            android:src="@drawable/bacteria"
+            android:layout_width="180dp"
+            android:layout_height="200dp" />
+        <Button
+            android:background="@android:color/transparent"
+            android:textSize="40sp"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/pic_bacteria"
+            android:text="细菌"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/pic_ecosystem"
+            android:src="@drawable/ecosystem"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/text_digest"
+            android:layout_toRightOf="@id/pic_bacteria"
+            android:layout_width="180dp"
+            android:layout_height="200dp" />
+        <Button
+            android:textSize="40sp"
+            android:text="生态系统"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="70dp"
+            android:layout_toRightOf="@id/text_mouth"
+            android:layout_below="@id/pic_ecosystem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
 
 
 </LinearLayout>
