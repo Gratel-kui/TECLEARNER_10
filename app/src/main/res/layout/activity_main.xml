@@ -25,6 +25,13 @@
             android:layout_marginTop="420dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="100dp"
+            android:textColor="#ff0000"
+            android:text="     TEC LEARNER"
+            android:textSize="49sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
     </RelativeLayout>
 
 </LinearLayout>
