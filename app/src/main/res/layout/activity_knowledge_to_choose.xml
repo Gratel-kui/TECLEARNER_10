@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/astronomy1"
+            android:layout_width="170dp"
+            android:layout_height="200dp" />
+        <Button
+
+            android:background="@drawable/biology"
+            android:id="@+id/btn_biology"
+            android:text="Biology"
+            android:layout_marginTop="50dp"
+            android:layout_width="170dp"
+            android:layout_height="180dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
