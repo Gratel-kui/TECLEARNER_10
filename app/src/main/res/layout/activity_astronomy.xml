@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/pic_star"
+            android:src="@drawable/star"
+            android:layout_width="180dp"
+            android:layout_height="200dp" />
+        <Button
+            android:id="@+id/text_star"
+            android:background="@android:color/transparent"
+            android:textSize="40sp"
+            android:text="恒星"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/pic_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/pic_starry_sky"
+            android:src="@drawable/starry_sky"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/pic_star"
+            android:layout_width="180dp"
+            android:layout_height="200dp" />
+
+        <Button
+            android:id="@+id/text_starry_sky"
+            android:textSize="40dp"
+            android:background="@android:color/transparent"
+            android:text="星空"
+            android:layout_marginLeft="105dp"
+            android:layout_toRightOf="@id/text_star"
+            android:layout_below="@id/pic_starry_sky"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:id="@+id/pic_dark_matter"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/text_star"
+            android:src="@drawable/dark_matter"
+            android:layout_width="180dp"
+            android:layout_height="200dp" />
+        <Button
+            android:background="@android:color/transparent"
+            android:textSize="40sp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/pic_dark_matter"
+            android:text="暗物质"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

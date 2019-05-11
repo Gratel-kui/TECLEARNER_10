@@ -18,7 +18,7 @@ public class konwledge_to_choose extends AppCompatActivity implements View.OnCli
 
     private void init() {
         findViewById(R.id.btn_biology).setOnClickListener(this);
-
+        findViewById(R.id.btn_astronomy1).setOnClickListener(this);
     }
 
     @Override
@@ -31,6 +31,11 @@ public class konwledge_to_choose extends AppCompatActivity implements View.OnCli
                 this.startActivity(intent1);
                 break;
 
+            case R.id.btn_astronomy1:
+                //跳转astronaut界面
+                Intent intent2 =new Intent();
+                intent2.setClass(getApplicationContext(), astronomyActivity.class);
+                this.startActivity(intent2);
         }
     }
 }

@@ -18,6 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".konwledge_to_choose" />
+        <activity android:name=".astronomyActivity" />
         <activity
 
             android:name=".biologyActivity"
