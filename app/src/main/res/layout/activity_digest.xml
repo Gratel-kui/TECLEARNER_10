@@ -1,6 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content"
+    android:background="@drawable/digest2">
 
-</LinearLayout>
+    <Button
+        android:id="@+id/nose"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="60dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/kouqiang"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/transparent"
+        android:layout_width="60dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/yan"
+        android:layout_marginLeft="255dp"
+        android:layout_marginTop="69dp"
+        android:background="@android:color/transparent"
+        android:layout_width="30dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/qiguan"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="115dp"
+        android:layout_width="60dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/saixian"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="155dp"
+        android:layout_width="60dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/shiguan"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="170dp"
+        android:layout_width="60dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/wei"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="245dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/gan"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="265dp"
+        android:layout_width="50dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/yi"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="320dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/shierchang"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="340dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/hengjiechang"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="295dp"
+        android:layout_marginTop="390dp"
+        android:layout_width="80dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/shengjiechang"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="445dp"
+        android:layout_width="80dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/jiangjiechang"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="295dp"
+        android:layout_marginTop="435dp"
+        android:layout_width="80dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/xiaochang"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="476dp"
+        android:layout_width="60dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/mangchang"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="518dp"
+        android:layout_width="60dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/lanwei"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="570dp"
+        android:layout_width="60dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/yizhuangjiechang"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="545dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/zhichang"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="273dp"
+        android:layout_marginTop="580dp"
+        android:layout_width="60dp"
+        android:layout_height="40dp" />
+
+
+</RelativeLayout>

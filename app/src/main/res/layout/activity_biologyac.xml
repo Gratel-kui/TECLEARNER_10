@@ -14,7 +14,7 @@
         android:layout_height="wrap_content">
         <ImageView
             android:id="@+id/pic_mouth"
-            android:src="@drawable/mouth"
+            android:src="@drawable/mouth2"
             android:layout_width="180dp"
             android:layout_height="200dp" />
         <Button
@@ -51,7 +51,7 @@
             android:id="@+id/pic_bacteria"
             android:layout_marginTop="20dp"
             android:layout_below="@id/text_mouth"
-            android:src="@drawable/bacteria"
+            android:src="@drawable/bacteria2"
             android:layout_width="180dp"
             android:layout_height="200dp" />
         <Button
@@ -64,7 +64,7 @@
             android:layout_height="wrap_content" />
         <ImageView
             android:id="@+id/pic_ecosystem"
-            android:src="@drawable/ecosystem"
+            android:src="@drawable/ecosystem2"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="10dp"
             android:layout_below="@id/text_digest"

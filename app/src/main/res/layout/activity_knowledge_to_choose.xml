@@ -45,16 +45,15 @@
             android:layout_height="180dp"
             android:layout_marginTop="250dp"
             android:layout_marginLeft="200dp"
-            android:background="@drawable/universe"
+            android:background="@drawable/universe2"
             android:text="Universe" />
 
         <Button
-
             android:id="@+id/btn_brain"
             android:layout_width="170dp"
             android:layout_height="180dp"
             android:layout_marginTop="450dp"
-            android:background="@drawable/ai"
+            android:background="@drawable/ai2"
             android:text="Chemistry" />
 
         <Button
@@ -63,7 +62,7 @@
             android:layout_height="180dp"
             android:layout_marginTop="450dp"
             android:layout_marginLeft="200dp"
-            android:background="@drawable/architecture"
+            android:background="@drawable/architecture2"
             android:text="Chemistry" />
 
 
