@@ -3,8 +3,9 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:background="@drawable/knowledge">
+    >
     <RelativeLayout
+
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_weight="1"
@@ -30,13 +31,12 @@
             android:text="Biology" />
 
         <Button
-
-        android:id="@+id/btn_chemistry"
-        android:layout_width="170dp"
-        android:layout_height="180dp"
-        android:layout_marginTop="250dp"
-        android:background="@drawable/chemistry"
-        android:text="Chemistry" />
+            android:id="@+id/btn_chemistry"
+            android:layout_width="170dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/chemistry"
+            android:text="Chemistry" />
 
         <Button
 

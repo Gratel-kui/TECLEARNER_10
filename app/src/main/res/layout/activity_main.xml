@@ -26,12 +26,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <TextView
+            android:background="@drawable/book"
             android:layout_marginTop="100dp"
             android:textColor="#ff0000"
             android:text="     TEC LEARNER"
             android:textSize="49sp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_width="wrap_content"
+            android:layout_height="150dp" />
     </RelativeLayout>
 
 </LinearLayout>
