@@ -20,6 +20,7 @@
         <activity android:name=".konwledge_to_choose" />
         <activity android:name=".astronomyActivity" />
         <activity android:name=".digestActivity" />
+        <activity android:name=".testActivity" />
         <activity
 
             android:name=".biologyActivity"

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#eeeeee"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout
+        android:paddingTop="80dp"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:id="@+id/TEXT"
+            android:textSize="20sp"
+            android:text="Question:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/A"
+            android:layout_marginTop="100dp"
+            android:layout_below="@+id/TEXT"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+        <Button
+            android:layout_below="@+id/TEXT"
+            android:id="@+id/B"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+        <Button
+            android:layout_below="@+id/TEXT"
+            android:id="@+id/C"
+            android:layout_marginTop="180dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+        <Button
+            android:layout_below="@+id/TEXT"
+            android:id="@+id/D"
+            android:layout_marginTop="260dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

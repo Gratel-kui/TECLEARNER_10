@@ -34,7 +34,7 @@ public class konwledge_to_choose extends AppCompatActivity implements View.OnCli
             case R.id.btn_astronomy1:
                 //跳转astronaut界面
                 Intent intent2 =new Intent();
-                intent2.setClass(getApplicationContext(), astronomyActivity.class);
+//                intent2.setClass(getApplicationContext(), astronomyActivity.class);
                 this.startActivity(intent2);
         }
     }
