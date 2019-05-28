@@ -3,6 +3,7 @@ package com.example.teclearner_10;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -12,7 +13,10 @@ public class digestActivity extends AppCompatActivity implements View.OnClickLis
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_digest);
-
+        ActionBar actionbar = getSupportActionBar();
+        if(actionbar != null){
+            actionbar.hide();
+        }
         init();
     }
 
@@ -154,7 +158,8 @@ public class digestActivity extends AppCompatActivity implements View.OnClickLis
                 break;
             case R.id.lanwei:    new AlertDialog.Builder(digestActivity.this)
                     .setTitle("阑尾")
-                    .setMessage("小肠位于腹中，上端接幽门与胃相通，下端通过阑门与大肠相连，是食物消化吸收的主要场所。\n" )
+                    .setMessage("阑尾在腹部的右下方，位于盲肠与回肠之间，它是细长而弯曲的盲管，远端闭锁。\n" +
+                            "阑尾在胎儿和青少年时期起有重要的作用。" )
                     .setPositiveButton("OK",null)
                     .show();
                 break;
