@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void initUI() {
         findViewById(R.id.start).setOnClickListener(this);
-
+        findViewById(R.id.about_us).setOnClickListener(this);
     }
 
     @Override
@@ -36,6 +36,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intent =new Intent();
                 intent.setClass(getApplicationContext(),konwledge_to_choose.class);
                 this.startActivity(intent);
+                break;
+            case R.id.about_us:
+                Intent intent1 =new Intent();
+                intent1.setClass(getApplicationContext(),about.class);
+                this.startActivity(intent1);
                 break;
         }
     }

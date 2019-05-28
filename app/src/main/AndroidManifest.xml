@@ -24,6 +24,7 @@
         <activity android:name=".digestActivity" />
         <activity android:name=".testActivity" />
         <activity android:name=".webActivity" />
+        <activity android:name=".about" />
         <activity
 
             android:name=".biologyActivity"
