@@ -47,7 +47,7 @@ public class testActivity extends AppCompatActivity implements View.OnClickListe
 
     private void initData() {
 
-        right = new int[]{1, 3, 2, 4,4,4,3,1,2,1};
+        right = new int[]{1,3,2,4,4,4,3,1,2,1};
         qa = new String[][]{{"下列哪个消化器官分泌盐酸？", "胃", "胰", "小肠", "口腔"},
                 {"下列选项中，不仅仅是消化道的是", "器官", "咽", "口腔", "直肠"},
                 {"消化系统总的来说由消化腺和什么组成？", "消化器官", "消化道", "消化液", "肠胃"},
@@ -74,8 +74,6 @@ public class testActivity extends AppCompatActivity implements View.OnClickListe
                 .setMessage("本次测试共有10道题目，答对6道即为合格。")
                 .setPositiveButton("OK",null)
                 .show();
-
-
 
     }
 
