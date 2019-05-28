@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/knowledge"
+    android:background="@drawable/back"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
@@ -14,23 +14,22 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:paddingRight="100dp"
-        android:paddingLeft="100dp">
+        android:paddingRight="72dp"
+        android:paddingLeft="72dp">
         <Button
             android:id="@+id/start"
             android:background="@android:color/transparent"
             android:text="Start"
             android:textSize="50dp"
             android:textColor="@color/colorPrimaryDark"
-            android:layout_marginTop="420dp"
+            android:layout_marginTop="560dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <TextView
-            android:background="@drawable/book"
             android:layout_marginTop="100dp"
-            android:textColor="#ff0000"
-            android:text="     TEC LEARNER"
-            android:textSize="49sp"
+            android:textColor="#fbc02d"
+            android:text="     TEC            LEARNER"
+            android:textSize="60sp"
             android:layout_width="wrap_content"
             android:layout_height="150dp" />
     </RelativeLayout>
